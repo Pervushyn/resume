@@ -86,7 +86,7 @@ body {
 }
 .information {
   font-style: normal;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.04em;
@@ -94,22 +94,23 @@ body {
 
 }
 
-.project-title {
+.title {
   display: block;
+  text-align: center;
   font-size: 40px;
   font-weight: 900;
   line-height: 1.17;
   letter-spacing: 0.03em;
   background-color: var(--bcg-title);
   color: var(--c-title);
-  padding: 10px 0 10px 50px;
+  padding: 10px 0;
 }
 
 .project-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px 0 40px 80px;
+  padding: 20px 20px 40px 80px;
 }
 .progect-link {
   font-size: 20px;
@@ -131,4 +132,16 @@ body {
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.education {
+  padding: 20px 20px 20px 80px;
+}
+
+.education-text {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
 }
