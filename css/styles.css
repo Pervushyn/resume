@@ -123,6 +123,30 @@ background-color: var(--bcg-title);
 transform: translateX(-50px);
 }
 
+.title-education {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  background-color: var(--bcg-title);
+  color: var(--c-title);
+  padding: 10px 0;
+}
+
+.title-education::before {
+  position: absolute;
+  display: block;
+content: '';
+top: 0;
+width: 51px;
+height: 66.5px;
+background-color: var(--bcg-title);
+transform: translateX(-50px);
+}
+
 .progect {
   position: relative;
 }
