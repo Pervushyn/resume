@@ -375,7 +375,15 @@ position: absolute;
   line-height: 1.4;
   letter-spacing: 0.03em;
   color: var(--c-text);
+  transition: transform 1s;
 }
+
+.tel-link:hover {
+  color: var(--bcg-body);
+  transform: scale(1.1);
+}
+
+
 
 .tech-skils-list {
 display: flex;
