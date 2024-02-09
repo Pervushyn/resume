@@ -1,13 +1,13 @@
 
 :root {
   --bcg-body: rgb(49, 47, 47);
-  --bcg-wraper:#fafafa;
+  --bcg-wraper: white;
   --c-text: rgb(80, 75, 75);
-  --bcg-title:rgb(62, 62, 83);
-  --c-title:rgb(221, 215, 215);
+  --bcg-title:rgb(89, 89, 136);
+  --c-title:#fafafa;
   --c-text-transparent:rgba(80, 75, 75, 0.616);
   --bcg-seidbar: rgba(193, 191, 197, 0.76);
-  --bcg-shadow: rgb(58, 56, 56);
+  --bcg-shadow: rgb(92, 88, 88);
 }
 
 
@@ -119,30 +119,6 @@ content: '';
 top: 0;
 width: 51px;
 height: 67px;
-background-color: var(--bcg-title);
-transform: translateX(-50px);
-}
-
-.title-education {
-  position: relative;
-  display: block;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 900;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  background-color: var(--bcg-title);
-  color: var(--c-title);
-  padding: 10px 0; 
-}
-
-.title-education::before {
-  position: absolute;
-  display: block;
-content: '';
-top: 0;
-width: 51px;
-height: 66px;
 background-color: var(--bcg-title);
 transform: translateX(-50px);
 }
