@@ -61,7 +61,7 @@ body {
 .wraper {
   display: flex;
 flex-direction: row-reverse;
-   width: 1200px;
+  width: 1200px;
    padding: 20px 0 0;
    background-color: var(--bcg-wraper);
    
