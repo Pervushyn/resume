@@ -434,7 +434,7 @@ transform: translate(-30px, 10px);
 }
 @media screen and (min-width: 320px) and (max-width:677.8px) {
  .project-text {
-
-  letter-spacing: 0.01em;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
  }
 }
