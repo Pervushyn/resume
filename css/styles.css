@@ -352,9 +352,10 @@ background-color: rgba(193, 191, 197, 0.76);
   width: 0;
   height: 0;
   right: 0;
-  bottom: -50px;
+  bottom: -49.5px;
   border-top: 50px solid var(--bcg-shadow);
 border-right: 50px solid transparent;
+
 position: absolute;
 }
 .seidbar-bcg {
@@ -397,6 +398,13 @@ position: absolute;
   fill: var(--bcg-title); /* Здесь используйте желаемый цвет для заливки */
 }
 
+.certifikat-link {
+text-decoration-line: underline;
+}
+
+.certifikat-link:hover {
+  color: var(--bcg-title);
+}
 
 .tech-skils-list {
 display: flex;
