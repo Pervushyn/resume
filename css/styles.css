@@ -225,6 +225,19 @@ transform: translate(-42px, 45px)
   transform: translate(-42px, 45px)
 }
 
+.house {
+  position: relative;
+}
+
+.house::before {
+  display: block;
+  content: '';
+  width: 2px;
+  height: 120px;
+  background-color: var(--bcg-title);
+  position: absolute;
+  transform: translate(-42px, 45px)
+}
 .chocolate {
   position: relative;
 }
@@ -434,10 +447,11 @@ position: absolute;
 transform: translate(-30px, 10px);
 }
 
+
 .seidbar-bcg-lang {
   margin: 0 auto;
   width: 500px;
-  height: 500px;
+ height: 630px;
   background-color: var(--bcg-seidbar); 
   padding: 30px 30px 60px;
 }
